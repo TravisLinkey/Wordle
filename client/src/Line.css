@@ -1,0 +1,28 @@
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.tile {
+  width: 10vh;
+  height: 10vh;
+  border: 1px solid black;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.correct {
+  background-color: green;
+}
+
+.close {
+  background-color: yellow;
+}
+
+.incorrect {
+  background-color: lightgrey;
+}
