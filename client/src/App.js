@@ -13,7 +13,7 @@ function App() {
   const getWord = async () => {
     const response = await fetch(API_URL);
     const word = await response.json();
-    setSolution(word.message);
+    setSolution(word.message.toLowerCase());
   };
 
   useEffect(() => {
